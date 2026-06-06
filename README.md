@@ -23,22 +23,12 @@ https://mariarostamii.github.io/REEL/
 
 ---
 
-## Files Structure
+## Files
 
-REEL/
-├── index.html
-├── styles/
-│ ├── general.css
-│ ├── content.css
-│ ├── header.css
-│ └── sidebar.css
-├── icons/
-│ └── search.png
-└── thumbnails/
-├── thumbnail1.jpg
-├── thumbnail2.jpg
-...
-└── thumbnail8.jpg
+- `index.html`
+- `styles/` (4 CSS files)
+- `icons/` (search icon)
+- `thumbnails/` (8 images)
 
 ---
 
