@@ -1,0 +1,131 @@
+/* === CONTENT === */
+.content{
+  padding: 28px 32px;
+}
+
+
+/* filter chips */
+.filter-chips{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.chip{
+  background-color: transparent;
+  color: #888888;
+  font-family: "Ancizar Serif", serif;
+  font-size: 12px;
+  border: 1px solid #2a2a2a;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  padding: 7px 17px;
+  transition: all 0.3s;
+}
+
+.chip:hover{
+  cursor: pointer;
+  border-color: #e8d5b0;
+  color: #e8d5b0;
+}
+
+.chip.active{
+  background-color: #e8d5b0;
+  color: #0a0a0a;
+  border-color: #e8d5b0;
+}
+
+.chip.active:hover{
+  cursor: pointer;
+}
+
+
+/* section label */
+.section-label{
+  font-size: 13px;
+  color: #555555;
+  letter-spacing: 2px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #2a2a2a;
+  margin-bottom: 16px;
+}
+
+
+/* video grid */
+.video-card{
+  transition: transform 0.3s ease;
+}
+
+.video-card:hover{
+  transform: translateY(-4px);
+}
+
+.thumbnail-container{
+  position: relative;
+}
+
+.thumbnail{
+  width: 100%;
+  transition: opacity 0.1s ease;
+}
+
+.video-card:hover .thumbnail{
+  opacity: 0.9;
+}
+
+/* video badges */
+.video-time{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #e8d5b0;
+  font-family: "Ancizar Serif", serif;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 3px 7px;
+}
+
+.video-live{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #c0392b;
+  color: white;
+  font-family: "Ancizar Serif", serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 3px 7px;  
+}
+
+/* video info */
+.video-label{
+  color: #c9a96e;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+.video-title{
+  color: #f0ede8;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 5px;
+  letter-spacing: 0.8px;
+}
+
+.video-meta{
+  color: #666666;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.video-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  column-gap: 20px;
+  row-gap: 25px;
+}
