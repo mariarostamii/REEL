@@ -50,7 +50,6 @@
 
 /* video grid */
 .video-grid{
-  font-family: "Ancizar Serif", serif;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   column-gap: 20px;
@@ -124,4 +123,3 @@
   font-size: 12px;
   margin-top: 5px;
 }
-
