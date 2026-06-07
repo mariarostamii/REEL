@@ -36,10 +36,6 @@
   border-color: #e8d5b0;
 }
 
-.chip.active:hover{
-  cursor: pointer;
-}
-
 
 /* section label */
 .section-label{
